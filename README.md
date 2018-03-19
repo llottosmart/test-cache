@@ -1,2 +1,2 @@
 # test-cache
-fe
+测试manifest缓存
