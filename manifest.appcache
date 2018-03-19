@@ -1,0 +1,19 @@
+CACHE MANIFEST
+#VERSION 2016-09-28 14:44
+
+# 直接缓存的文件
+CACHE:
+./about.html
+./index.html
+./css/index.css
+
+./js/index.js
+
+./images/box1.png
+
+#需要在线请求的文件路径，*代表除CACHE以外的文件都进行在线请求
+NETWORK:
+*
+# 替代方案 ，当请求失败时需要跳转的页面
+FALLBACK:
+./error.html
